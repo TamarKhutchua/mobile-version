@@ -3,11 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container-header {
-  max-width: 1440;
-  width: 100%;
-  margin: auto;
-}
 header {
   background-color: #0a22f4;
   padding: 40px;
@@ -157,4 +152,9 @@ button {
   gap: 15px;
   margin-top: 80px;
   margin-bottom: 32px;
+}
+@media (width <= 1024px) {
+  .navbar ul {
+    display: none;
+  }
 }
