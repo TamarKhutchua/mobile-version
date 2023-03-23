@@ -158,3 +158,8 @@ button {
     display: none;
   }
 }
+@media (width <= 1024px) {
+  section {
+    display: flex;
+  }
+}
